@@ -1,0 +1,121 @@
+*{
+  text-align: center;
+  color: white;
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+body{
+  background-color: rgb(255, 255, 255);
+}
+h1,h2,h3,h4,h5,h6,p   {
+  color: white; 
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+.logmsg{
+  font-size: 13px;
+
+}
+input{
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  outline: none;
+  padding-bottom: 15px;
+  width: 200px;
+  color: white;
+}
+button{
+  background-color: Transparent;
+  border: solid 2px white;
+  margin:50px;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+}
+span {
+  background: -webkit-linear-gradient(360deg, #ffffff, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h1 span {
+  font-size: 100px;
+}
+footer{
+  width:100%;
+  position:absolute;
+  bottom:0;
+  left:0;
+  font-size:20px
+}
+
+
+
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"1.080","walltime":"1.320","ppvisitednodes":{"value":3729,"limit":1000000},"postexpandincludesize":{"value":197304,"limit":2097152},"templateargumentsize":{"value":2259,"limit":2097152},"expansiondepth":{"value":21,"limit":40},"expensivefunctioncount":{"value":8,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":157976,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00% 1096.918      1 -total"," 35.45%  388.866      1 Template:Reflist"," 26.57%  291.487     40 Template:Cite_web"," 10.82%  118.737      1 Template:Pp-pc1","  7.22%   79.176      1 Template:IPstack","  6.94%   76.151     10 Template:Navbox","  5.65%   61.977      1 Template:Short_description","  5.38%   59.002      1 Template:Update_inline","  4.74%   52.000      2 Template:As_of","  4.41%   48.408      1 Template:Gallery"]},"scribunto":{"limitreport-timeusage":{"value":"0.575","limit":"10.000"},"limitreport-memusage":{"value":8168441,"limit":52428800}},"cachereport":{"origin":"mw1316","timestamp":"20210503185348","ttl":2592000,"transientcontent":false}}});});</script>
+
+
+
+.wrapper {
+  height: 100vh;
+  /*This part is important for centering*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.typing-demo {
+  width: 64ch;
+  animation: typing 4s steps(22), blink .8s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 4px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+
+
+#container {
+	text-align: center;
+}
+
+#text {
+	display: inline-block;
+	vertical-align: middle;
+	color: white;
+	letter-spacing: 2px;
+}
+
+#cursor {
+	display: inline-block;
+	vertical-align: middle;
+	width: 3px;
+	height: 50px;
+	background-color: white;
+	animation: blink .75s step-end infinite;
+}
+
+@keyframes blink {
+	from, to { 
+		background-color: transparent 
+	}
+	50% { 
+		background-color: white; 
+	}
+}
+
+
+
+
+
